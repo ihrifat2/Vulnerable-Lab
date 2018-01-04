@@ -1,0 +1,65 @@
+/* Menu Bar  overflow: hidden; */
+.mainmenu {margin-top: 17px; margin-left: 20px;}
+.mainmenu ul{margin:0; padding: 0; list-style: none;}
+.mainmenu ul li{float: left; border-left: 1px solid #de5a52; border-right: 1px solid #5a2421;background: #ab453f;}
+.mainmenu ul li:first-child{border-left: 0px solid}
+.mainmenu ul li:last-child{border-right: 0px solid}
+.mainmenu ul li a{color: #fff; display: block; padding: 15px}
+.mainmenu ul li a:hover{background: #77302c;text-decoration: none;}
+
+/* Dropdown mainmenu */
+.mainmenu ul li ul{position: absolute; left: -99999999px}
+.mainmenu ul li:hover ul{left: 82px}
+.mainmenu ul li ul{background: #6491C3;}
+.mainmenu ul li ul li{float: none; width: 100px; border-left: 1px solid #de5a52; border-right: 1px solid #ab453f;}
+.mainmenu ul li ul li a{background: #ab453f;}
+.mainmenu ul li ul li a:hover{background: #77302c}
+
+body, html {
+    height: 98.5%;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgb(184, 211, 216), rgb(247, 207, 134));
+}
+.logout{
+    right: 10px;
+    top: 15px;
+    position: absolute;
+    padding: 10px;
+    margin: 10px;
+    font-size: 18px;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgb(247, 207, 134), rgb(184, 211, 216));
+}
+.logout:hover{
+	text-decoration: none;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgb(184, 211, 216), rgb(247, 207, 134));
+}
+.username{
+    right: 80px;
+    top: 15px;
+    position: absolute;
+    padding: 10px;
+    margin: 10px;
+    font-size: 18px;
+    background-image: linear-gradient(rgb(247, 207, 134), rgb(184, 211, 216));
+}
+.username:hover{
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgb(184, 211, 216), rgb(247, 207, 134));
+}
+/*.content{
+	position: relative;
+	left: 20px;
+}*/
+.wl-content{
+	position: fixed; 
+	top: 35%;
+	left: 40%;
+	font-size: 55px;
+}
+.head{
+    font-size: 56px;
+    font-weight: bold;
+}

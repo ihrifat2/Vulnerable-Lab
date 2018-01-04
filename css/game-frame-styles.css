@@ -1,0 +1,49 @@
+body {
+  background-color: #ffffff;
+  font-family: Verdana, Arial, Helvetica,sans-serif;
+  font-size: 14px;
+}
+
+#domxss {
+    font-family: Helvetica, Verdana, sans-serif;
+    color: #333;
+    width: 100%;
+}
+
+#domxss #header span {
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    color: #05234a;
+}
+
+#domxss .tab {
+    display: inline-block;
+    border-width: 2px 2px 0px 2px;
+    border-style: solid;
+    border-color: #2a2424;
+    background-color: #666;
+    padding: 3px 30px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    text-shadow: #666 0.1em 0.1em 0.2em;
+}
+
+#domxss .tab.active {
+    text-shadow: black 0.1em 0.1em 0.3em;
+}
+
+#domxss #tabContent {
+    border-width: 2px 2px 2px 2px;
+    width: 100%;
+    margin-right: 5px;
+    height: 300px;
+    padding: 4px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}

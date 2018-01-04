@@ -1,0 +1,66 @@
+html, body 
+{
+    height: 100%;
+    background-color: white;
+}
+#frm{ 
+	width: 20%;
+	border-radius: 5px;
+	margin: 100px 300px;
+	background: #ff6666;
+	padding: 20px;
+	position: absolute;
+}
+#btn{
+	color: #fff;
+	background: #337ab7;
+	padding: 5px;
+	margin-left: 70%;
+	float: right;
+	position: absolute;
+}
+
+#regbtn{
+	color: #fff;
+	background: #337ab7;
+	padding: 5px;
+	margin-left: 70%;
+	float: left;
+	position: absolute;
+}
+img{
+	min-width: 100%; 
+	-webkit-filter: blur(3px); 
+    filter: blur(3px);
+	position: fixed;
+}
+#welbody {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: table;
+    font-weight: 100;
+    font-family: 'Lato';
+    background-color: white;
+}
+
+.container {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.content {
+    text-align: center;
+    display: inline-block;
+}
+
+.title {
+    font-size: 96px;
+}
+#subtn{
+	margin-top: 10px;
+	padding-top: 20px;
+	float: left;
+	position: relative;
+}
